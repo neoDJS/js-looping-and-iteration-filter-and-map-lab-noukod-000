@@ -6,3 +6,5 @@ function driversWithRevenueOver(drivers, revenue){
 function driverNamesWithRevenueOver(drivers, revenue){
   return drivers.filter(d => d.revenue > revenue).map(d => d.name)
 }
+
+function exactMatch(drivers, matcher){}
